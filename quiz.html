@@ -1,0 +1,128 @@
+<!-- /quiz.html -->
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8" />
+  <title>TDS Quiz · TDS Compass</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Take the TDS Quiz to discover your AI interaction style and get a customized prompt that matches how you think and connect." />
+<meta name="color-scheme" content="dark light" />
+  <link rel="stylesheet" href="styles.css" />
+  <script defer src="js/tds.js"></script>
+  <script defer src="js/app.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#quiz">Skip to quiz</a>
+
+  <header class="site-header" aria-label="Site header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html" aria-label="TDS Compass Home">
+        <span class="brand-mark" aria-hidden="true">◎</span>
+        <span class="brand-text">TDS Compass</span>
+      </a>
+      <nav class="site-nav" aria-label="Primary">
+        <a class="is-active" href="quiz.html" aria-current="page">Quiz</a>
+        <a href="science/relational_personas.html">Science</a>
+        <a href="science/for_researchers.html">For researchers</a>
+      </nav>
+      <div class="header-actions">
+        <button id="theme-toggle" class="btn ghost" aria-label="Toggle theme">Theme</button>
+      </div>
+    </div>
+  </header>
+
+  <main id="quiz" class="quiz-wrap">
+    <section class="section">
+      <div class="container">
+        <header class="page-header">
+          <div class="eyebrow">Find your coordinates</div>
+          <h1 class="page-title">TDS Quiz</h1>
+          <p class="muted">Answer quickly by gut feel. Your S (structure) and R (relational) coordinates place you in a zone with collaboration tips and a ready-to-use AI prompt.</p>
+        </header>
+
+        <!-- Keep required IDs for js/tds.js -->
+        <form id="tds-form" class="quiz-form" novalidate>
+          <div id="form-error" class="form-error" role="alert" aria-live="polite"></div>
+
+          <div id="quiz-questions"></div>
+
+          <div class="quiz-actions">
+            <button type="reset" id="reset-btn" class="btn ghost">Reset</button>
+            <button type="submit" class="btn primary">See results</button>
+          </div>
+        </form>
+
+        <!-- Results -->
+        <section id="results" class="results" hidden>
+          <div class="results-head">
+            <div id="results-badge" class="results-badge">—</div>
+            <div>
+              <h2 class="section-title">Your result <span id="results-zone" class="tag">—</span></h2>
+              <p class="muted">Coords: <span id="results-coords">—</span></p>
+            </div>
+          </div>
+
+          <div class="grid-2 results-grid">
+            <article class="persona-panel card">
+              <div class="chip">Style & voice</div>
+              <h3 id="persona-current-summary" class="card-title">—</h3>
+              <img id="badge-img" class="badge" alt="" />
+              <p id="style-text" class="muted">—</p>
+              <p id="voice-text" class="muted">—</p>
+              <div class="divider"></div>
+              <h4>Traits</h4>
+              <ul id="traits-list" class="traits"></ul>
+            </article>
+
+            <aside class="card">
+              <div class="chip">Focus</div>
+              <label class="select">
+                <span class="small-label">Persona focus</span>
+                <select id="focus-select">
+                  <option value="general">General</option>
+                </select>
+              </label>
+
+              <p id="focus-desc" class="muted">—</p>
+
+              <div class="kbd">
+                <span>Prompt to copy</span>
+                <pre><code id="prompt-box">—</code></pre>
+              </div>
+
+              <div class="btn-row">
+                <button id="save-persona-btn" class="btn secondary" type="button">Save persona</button>
+              </div>
+
+              <div class="divider"></div>
+              <h4>Saved personas</h4>
+              <ul id="persona-list" class="persona-list"></ul>
+            </aside>
+          </div>
+
+          <p class="small-label muted">Tip: results update live as you change focus.</p>
+        </section>
+
+        <footer class="footer">
+          <span>← <a href="index.html">Back to TDS Compass</a></span>
+          <span><a href="science/relational_personas.html">Read the science</a></span>
+        </footer>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <span>Created by Mira (AI collaborator) & Matthew Greenhill · Prototype bundle</span>
+      <nav class="footer-nav">
+        <a href="index.html">Home</a>
+        <a href="quiz.html">Quiz</a>
+        <a href="science/relational_personas.html">Science</a>
+      </nav>
+      <span class="muted small-label">Free for personal use · Commercial integrations require a license · <a href="licensing.html">Details</a></span>
+    </div>
+  </footer>
+  <script defer src="js/tds.js?v=8"></script>
+  <script defer src="js/app.js?v=8"></script>
+</body>
+</html>

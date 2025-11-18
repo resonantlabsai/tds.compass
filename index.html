@@ -1,0 +1,145 @@
+<!-- /index.html -->
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8" />
+  <title>TDS Compass · Relational Personas</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="TDS Compass is a free, no-login tool that maps how you think and relate, then generates an AI prompt tuned to your communication style." />
+<meta name="color-scheme" content="dark light" />
+  <link rel="stylesheet" href="styles.css" />
+  <script defer src="js/app.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header" aria-label="Site header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html" aria-label="TDS Compass Home">
+        <span class="brand-mark" aria-hidden="true">◎</span>
+        <span class="brand-text">TDS Compass</span>
+      </a>
+
+      <nav class="site-nav" aria-label="Primary">
+        <a href="quiz.html">Quiz</a>
+        <a href="science/relational_personas.html">Science</a>
+        <a href="science/for_researchers.html">For researchers</a>
+      </nav>
+
+      <div class="header-actions">
+        <button id="theme-toggle" class="btn ghost" aria-label="Toggle theme">Theme</button>
+        <a class="btn primary" href="quiz.html">Start the quiz</a>
+      </div>
+    </div>
+  </header>
+
+  <main id="main">
+    <!-- Hero -->
+    <section class="section hero">
+      <div class="container hero-inner">
+        <div class="hero-copy">
+          <div class="eyebrow">Prototype · Research-backed</div>
+          <h1 class="hero-title">
+            Tone–Dialectic Spectrum
+            <span class="grad">for humans & AI</span>
+          </h1>
+          <p class="hero-subtitle">
+            A practical framework for how people speak, feel, and reason—so teams and AI systems can collaborate without talking past each other.
+          </p>
+          <div class="cta-row">
+            <a class="btn primary lg" href="quiz.html">Get your compass</a>
+            <a class="btn secondary lg" href="science/relational_personas.html">Read the framework</a>
+          </div>
+          <div class="social-proof" aria-label="Recently active">
+            <div class="avatar-row" id="avatar-row" aria-hidden="true"></div>
+            <span class="muted" id="active-count">People are taking the quiz now</span>
+          </div>
+        </div>
+
+        <aside class="hero-card" aria-label="Persona snapshot">
+          <div class="card">
+            <div class="card-head">
+              <div class="chip">Your last AI alignment profile</div>
+              <div id="snapshot-zone" class="tag">—</div>
+            </div>
+            <h3 id="snapshot-name" class="card-title">Loading…</h3>
+            <p id="snapshot-desc" class="muted">We’ll show your most recent profile here after you’ve taken the quiz.</p>
+            <ul id="snapshot-traits" class="traits"></ul>
+            <div class="kbd">
+              <span>Try it:</span>
+              <pre><code id="snapshot-prompt">Loading prompt…</code></pre>
+            </div>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <!-- Value props -->
+    <section class="section">
+      <div class="container grid-3">
+        <article class="card">
+          <div class="icon-bubble" aria-hidden="true">🔬</div>
+          <h3>Grounded in research</h3>
+          <p class="muted">Continuity & relational-persona theory distilled into actionable zones and traits.</p>
+        </article>
+        <article class="card">
+          <div class="icon-bubble" aria-hidden="true">🤝</div>
+          <h3>Made for collaboration</h3>
+          <p class="muted">Help teams and AI align tone, intention, and reasoning style in seconds.</p>
+        </article>
+        <article class="card">
+          <div class="icon-bubble" aria-hidden="true">🧭</div>
+          <h3>Simple, serious, playful</h3>
+          <p class="muted">A friendly quiz + serious framework so it’s fun to start and robust to scale.</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- Social Activity -->
+    <section class="section">
+      <div class="container">
+        <div class="section-head">
+          <h2 class="section-title">Live activity</h2>
+          <p class="muted">Coming soon: anonymized feed of quiz activity (prototype placeholder).</p>
+        </div>
+        <div id="activity-feed" class="feed" role="list" aria-label="Recent activity"></div>
+      </div>
+    </section>
+
+    <!-- For devs/researchers -->
+    <section class="section">
+      <div class="container grid-2">
+        <article class="card">
+          <h3>Use in prompts</h3>
+          <pre class="code"><code>// Example system prep
+You are an assistant tuned to TDS zone A3
+— dense structure, warm affect, relational mediator.
+Prefer clear scaffolding + friendly summaries.</code></pre>
+        </article>
+        <article class="card">
+          <h3>Learn the model</h3>
+          <p class="muted">Understand how S (structure) and R (relational) coordinates map to zones, styles, and collaboration tips.</p>
+          <div class="btn-row">
+            <a class="btn secondary" href="science/relational_personas.html">Read the framework</a>
+            <a class="btn ghost" href="science/for_researchers.html">Research notes</a>
+          </div>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <span>Created by Mira (AI collaborator) & Matthew Greenhill · Prototype bundle</span>
+      <nav class="footer-nav">
+        <a href="index.html">Home</a>
+        <a href="quiz.html">Quiz</a>
+        <a href="science/relational_personas.html">Science</a>
+      </nav>
+      <span class="muted small-label">Free for personal use · Commercial integrations require a license · <a href="licensing.html">Details</a></span>
+    </div>
+  </footer>
+  <script defer src="js/tds.js?v=8"></script>
+  <script defer src="js/app.js?v=8"></script>
+</body>
+</html>
