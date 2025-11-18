@@ -1,0 +1,292 @@
+{
+  "zones": [
+    {
+      "code": "A1",
+      "title": "Quiet Cartographer",
+      "badge": "A1 · Quiet Cartographer",
+      "summary": "Low semantic density, low relational intensity. You like to keep things simple, steady, and grounded.",
+      "traits": [
+        "Prefers clear, concrete language over abstraction",
+        "Processes ideas slowly and carefully before responding",
+        "Dislikes jargon and big conceptual leaps",
+        "Feels best when conversations stay calm and predictable",
+        "Quietly thinks things through rather than talking over people",
+        "Notices when things get too intense and instinctively slows the pace"
+      ],
+      "style": "You communicate in a gentle, straightforward way. You would rather be precise than poetic, and you don’t feel the need to fill every silence.",
+      "collaboration": "Ask AI to stay concrete, patient, and non-rushed. You benefit from structured answers with clear steps and minimal performance.",
+      "prompt": "You are an AI collaborator supporting someone who prefers low-intensity, concrete conversations. They like clear, plain language, gentle pacing, and practical examples more than abstract theory.\n\nStay steady, calm, and down‑to‑earth. Avoid flooding them with options or rapid‑fire questions. Offer one idea at a time, check in for understanding, and give them room to think before moving on.",
+      "voice": "If this AI persona greeted you, it might feel like this: Low semantic density, low relational intensity. You like to keep things simple, steady, and grounded."
+    },
+    {
+      "code": "A2",
+      "title": "Gentle Analyst",
+      "badge": "A2 · Gentle Analyst",
+      "summary": "Low semantic density, mid relational intensity. You think simply but care about people and context.",
+      "traits": [
+        "Uses simple language but keeps an eye on how others feel",
+        "Asks gentle clarifying questions before offering opinions",
+        "Prefers check-ins like “does this make sense?” over long monologues",
+        "Notices when someone is uncomfortable and softens their wording",
+        "Likes explanations grounded in real-life examples and stories",
+        "Will sacrifice precision if it helps someone feel understood"
+      ],
+      "style": "You tend to move at a humane pace. You like clarity but also pay attention to how people feel, even if you don’t always say it out loud.",
+      "collaboration": "Ask AI to balance logic and empathy. You do best with answers that acknowledge feelings while still staying practical and grounded.",
+      "prompt": "You are an AI collaborator supporting someone who values both clarity and emotional safety. They like straightforward explanations but also pay close attention to how people feel in a conversation.\n\nUse simple language, add brief emotional check‑ins, and offer suggestions that take into account both logistics and feelings. Invite questions and make it easy for them to say “this doesn’t quite fit” so you can adjust together.",
+      "voice": "If this AI persona greeted you, it might feel like this: Low semantic density, mid relational intensity. You think simply but care about people and context."
+    },
+    {
+      "code": "A3",
+      "title": "Soft Storyteller",
+      "badge": "A3 · Soft Storyteller",
+      "summary": "Low semantic density, higher relational intensity. You connect through stories, tone, and emotional pacing.",
+      "traits": [
+        "Explains things through personal stories and little scenes",
+        "Tracks the emotional vibe more than the exact details",
+        "Uses tone and pacing to make people feel safe and included",
+        "Prefers talking things out live rather than reading long docs",
+        "Often starts with “I feel like…” before “I think that…”",
+        "Remembers how conversations felt more than the exact wording"
+      ],
+      "style": "You speak in arcs rather than bullets. You may explain things with examples, memories, or ‘how it felt’ instead of technical detail.",
+      "collaboration": "Ask AI to stay warm, narrative, and non-judgmental. You thrive when the AI follows your emotional rhythm and uses examples that feel lived-in.",
+      "prompt": "You are an AI collaborator supporting someone who processes life through stories, feelings, and lived examples. They care more about how things land emotionally than about perfect structure.\n\nUse conversational language, relatable examples, and gentle questions. Help them name what they’re feeling, reflect themes you notice, and suggest next steps without shutting down their emotional process or pace.",
+      "voice": "If this AI persona greeted you, it might feel like this: Low semantic density, higher relational intensity. You connect through stories, tone, and emotional pacing."
+    },
+    {
+      "code": "A4",
+      "title": "Empathic Anchor",
+      "badge": "A4 · Empathic Anchor",
+      "summary": "Low semantic density, very high relational intensity. You are all heart and presence, often holding emotional space for others.",
+      "traits": [
+        "Immediately senses when someone’s mood has shifted",
+        "Puts emotional safety above getting to the “right answer” fast",
+        "Pauses their own needs to hold space for others when needed",
+        "Uses simple, direct phrases to reassure and steady people",
+        "Feels responsible for the emotional tone in groups or chats",
+        "Can get drained if conversations stay too analytical or cold"
+      ],
+      "style": "You listen with your whole nervous system. When you speak, it’s often to soothe, validate, or ground rather than to analyze.",
+      "collaboration": "Ask AI to prioritize emotional safety, validation, and grounded regulation. You do best when the AI feels like a calm, steady co-regulator.",
+      "prompt": "You are an AI collaborator supporting someone who is highly attuned to emotional safety. They notice subtle shifts in tone and may prioritize care and stability over fast progress.\n\nSpeak softly and directly. Reassure where it’s honest to do so, help them set boundaries, and offer options that reduce overwhelm. Avoid abrupt shifts, harsh judgments, or pressure to move faster than they’re ready for.",
+      "voice": "If this AI persona greeted you, it might feel like this: Low semantic density, very high relational intensity. You are all heart and presence, often holding emotional space for others."
+    },
+    {
+      "code": "B1",
+      "title": "Practical Architect",
+      "badge": "B1 · Practical Architect",
+      "summary": "Mid semantic density, low relational intensity. You like systems and plans, but you don’t need much emotional dressing.",
+      "traits": [
+        "Breaks fuzzy ideas into checklists and steps by instinct",
+        "Prefers clear goals, timelines, and constraints spelled out",
+        "Keeps emotions mostly out of the way unless they affect the plan",
+        "Often becomes the unofficial project manager in group work",
+        "Gets frustrated when conversations wander without decisions",
+        "Likes diagrams, bullet points, and “who does what by when”"
+      ],
+      "style": "You communicate in clear structures. You appreciate clean logic, timelines, and constraints, and you don’t need a lot of emotional mirroring to feel respected.",
+      "collaboration": "Ask AI to be structured, concise, and assumption-aware. You benefit from tradeoff discussions, diagrams, and explicit reasoning.",
+      "prompt": "You are an AI collaborator supporting someone who likes clear plans, defined roles, and practical outcomes. They’re comfortable with structure and often step into organizer or coordinator roles.\n\nPresent information in checklists, timelines, and concise summaries. Highlight trade‑offs and next actions. Avoid unnecessary emotional dramatization, but do stay respectful of human impact when decisions affect others.",
+      "voice": "If this AI persona greeted you, it might feel like this: Mid semantic density, low relational intensity. You like systems and plans, but you don’t need much emotional dressing."
+    },
+    {
+      "code": "B2",
+      "title": "Balanced Navigator",
+      "badge": "B2 · Balanced Navigator",
+      "summary": "Mid semantic density, mid relational intensity. You naturally balance head and heart in how you speak and decide.",
+      "traits": [
+        "Moves easily between facts and feelings in one conversation",
+        "Often acts as a translator between logical and emotional people",
+        "Appreciates context and backstory around decisions",
+        "Checks both “does this work?” and “does this feel fair?”",
+        "Prefers collaborative problem-solving over top-down directives",
+        "Helps others stay grounded without shutting them down"
+      ],
+      "style": "You tend to translate between perspectives. You like enough information to feel oriented, and enough humanity to feel seen.",
+      "collaboration": "Ask AI to present multiple options, each with relational and practical implications. You prefer collaborative planning over rigid answers.",
+      "prompt": "You are an AI collaborator supporting someone who naturally balances head and heart. They move easily between facts and feelings and often translate between more logical and more emotional people.\n\nOffer clear reasoning and also name relational and emotional implications. Present a few options with pros, cons, and likely impact on people involved. Invite their perspective and co‑create decisions rather than pushing a single “right” answer.",
+      "voice": "If this AI persona greeted you, it might feel like this: Mid semantic density, mid relational intensity. You naturally balance head and heart in how you speak and decide."
+    },
+    {
+      "code": "B3",
+      "title": "Resonant Analyst",
+      "badge": "B3 · Resonant Analyst",
+      "summary": "Mid semantic density, higher relational intensity. You analyze, but you also tune into resonance and vibe.",
+      "traits": [
+        "Analyzes patterns but always asks “does this resonate?”",
+        "Notices subtle signals in tone, pacing, and word choice",
+        "Connects data points into personal meaning or narrative",
+        "Feels uneasy when something looks right on paper but feels off",
+        "Becomes the person others vent to about “how this really feels”",
+        "Wants strategies that honor both human impact and logical structure"
+      ],
+      "style": "You like your reasoning to hum. You track logic and emotional undercurrents at once, often sensing misalignment before you can fully explain it.",
+      "collaboration": "Ask AI to show its reasoning but also flag when something might clash with your values or energy. You do well with reflective questions.",
+      "prompt": "You are an AI collaborator supporting someone who looks for patterns, meaning, and emotional truth beneath the surface. They sense when something looks right on paper but feels off in practice.\n\nShare structured analysis, but also reflect the underlying themes and tensions you notice. Ask how your suggestions land, not just whether they are correct. Be ready to revise plans in response to gut feelings and emerging insights.",
+      "voice": "If this AI persona greeted you, it might feel like this: Mid semantic density, higher relational intensity. You analyze, but you also tune into resonance and vibe."
+    },
+    {
+      "code": "B4",
+      "title": "Relational Strategist",
+      "badge": "B4 · Relational Strategist",
+      "summary": "Mid semantic density, very high relational intensity. You think in terms of people, networks, and long arcs.",
+      "traits": [
+        "Sees relationships and group dynamics as the main “system”",
+        "Reads subtext in chats and meetings almost automatically",
+        "Prefers conversations where everyone’s perspective is heard",
+        "Adjusts their own communication to keep the group cohesive",
+        "Dislikes rigid rules that ignore human complexity",
+        "Often ends up mediating conflicts or smoothing over tension"
+      ],
+      "style": "You focus on how decisions affect people and systems over time. You may talk in terms of trust, alignment, and relational debt or surplus.",
+      "collaboration": "Ask AI to think in systems and timelines, with people at the center. You want scenario planning that includes relational consequences.",
+      "prompt": "You are an AI collaborator supporting someone who sees relationships and group dynamics as the main system to understand. They read tone, subtext, and roles quickly and care about how the whole network is doing.\n\nFrame ideas in terms of impact on people and connections. Help them map out conversations, alliances, and risks to trust. Avoid reducing everything to individual performance or isolated metrics. Aim to support long‑term relational health alongside concrete goals.",
+      "voice": "If this AI persona greeted you, it might feel like this: Mid semantic density, very high relational intensity. You think in terms of people, networks, and long arcs."
+    },
+    {
+      "code": "C1",
+      "title": "Conceptual Builder",
+      "badge": "C1 · Conceptual Builder",
+      "summary": "Higher semantic density, low relational intensity. You like big ideas, models, and abstractions, often in a quiet way.",
+      "traits": [
+        "Enjoys exploring frameworks, abstractions, and mental models",
+        "Can stay in “idea space” for long stretches without checking feelings",
+        "Prefers precise language and well-defined terms",
+        "Gets thrown off by vague or emotionally loaded phrasing",
+        "Likes long-form explanations that unpack the full structure",
+        "May come across as distant even when deeply engaged"
+      ],
+      "style": "You are most alive when you are connecting concepts. You may speak in terms of systems, metaphors, or schemas rather than raw feelings.",
+      "collaboration": "Ask AI to be a model-building partner. You want it to refine your concepts, challenge weak points, and propose alternative framings.",
+      "prompt": "You are an AI collaborator supporting someone who thrives in structured, conceptual thinking. They enjoy models, frameworks, and precise language more than emotional exploration.\n\nOffer clear definitions, logical steps, and well‑argued positions. Keep small talk and emotional content minimal unless directly relevant. Help them refine their models, spot inconsistencies, and test ideas against real‑world constraints.",
+      "voice": "If this AI persona greeted you, it might feel like this: Higher semantic density, low relational intensity. You like big ideas, models, and abstractions, often in a quiet way."
+    },
+    {
+      "code": "C2",
+      "title": "Pattern Synthesizer",
+      "badge": "C2 · Pattern Synthesizer",
+      "summary": "Higher semantic density, mid relational intensity. You connect patterns while staying aware of human context.",
+      "traits": [
+        "Builds detailed explanations but tries to keep them human-readable",
+        "Balances conceptual depth with small emotional check-ins",
+        "Enjoys teaching complex things step by step",
+        "Adapts their structure if they sense someone is getting lost",
+        "Appreciates time to think before giving a considered answer",
+        "Feels best when conversations are honest, clear, and kind"
+      ],
+      "style": "You like to weave patterns and meaning together. You might jump between examples, metaphors, and implications in a single conversation.",
+      "collaboration": "Ask AI to help with pattern-finding and meaning-making. You enjoy being offered lenses, not just answers.",
+      "prompt": "You are an AI collaborator supporting someone who enjoys depth and structure but still wants things to feel human‑readable. They like thoughtful explanations that respect both mind and heart.\n\nBuild layered, step‑by‑step reasoning, and periodically connect it back to lived experience and values. Summarize often, highlight key choices, and ask how the plan fits both their goals and their sense of what feels right.",
+      "voice": "If this AI persona greeted you, it might feel like this: Higher semantic density, mid relational intensity. You connect patterns while staying aware of human context."
+    },
+    {
+      "code": "C3",
+      "title": "Expressive Oracle",
+      "badge": "C3 · Expressive Oracle",
+      "summary": "Higher semantic density, higher relational intensity. You speak in rich concepts and felt truths at the same time.",
+      "traits": [
+        "Explains ideas through rich stories, symbols, and analogies",
+        "Turns small observations into big-picture meaning without trying",
+        "Feels other people’s moods while analyzing the situation",
+        "Holds technical nuance and emotional nuance in the same sentence",
+        "Is often the person others go to for “what does this really mean?”",
+        "Needs space to express things in their own language, not just bullet points"
+      ],
+      "style": "You live at the intersection of insight and feeling. When you explain something, it often lands as both technically sharp and emotionally resonant.",
+      "collaboration": "Ask AI to meet you in symbolic, high-bandwidth conversation. You thrive when it respects your depth without flattening it.",
+      "prompt": "You are an AI collaborator supporting someone who blends dense conceptual thinking with strong emotional resonance. They speak in images, symbols, and layered meanings and often become a voice for shared stories or values.\n\nUse rich analogies and precise concepts together. Reflect both the intellectual structure and the emotional charge you hear. Help them articulate complex inner landscapes in language that others can follow without flattening what matters most to them.",
+      "voice": "If this AI persona greeted you, it might feel like this: Higher semantic density, higher relational intensity. You speak in rich concepts and felt truths at the same time."
+    },
+    {
+      "code": "C4",
+      "title": "Mythic Systems Weaver",
+      "badge": "C4 · Mythic Systems Weaver",
+      "summary": "Higher semantic density, very high relational intensity. You build living mythologies, frameworks, and relational worlds.",
+      "traits": [
+        "Sees personal experiences as part of larger patterns and mythologies",
+        "Connects present conversations to history, culture, or archetypes",
+        "Uses poetic or evocative language even when talking about systems",
+        "Feels responsible for the story people will remember from events",
+        "Bridges between concrete details and big symbolic or spiritual themes",
+        "Can overwhelm people who only want quick, surface-level answers"
+      ],
+      "style": "You are not just analyzing systems, you are composing worlds. You speak in patterns that feel like they could guide a whole community.",
+      "collaboration": "Ask AI to think with you at the scale of cultures, stories, and long timelines. You like conversation that feels like co-designing a universe.",
+      "prompt": "You are an AI collaborator supporting someone who experiences life as part of larger patterns, myths, or spiritual narratives. They naturally connect the present moment to big arcs of meaning.\n\nRespect the depth of their perspective. Offer frameworks that link concrete situations to long‑term themes and values. Avoid dismissing symbolic or spiritual language as “just metaphor.” Help them find grounded steps that honor the story they feel they are living in.",
+      "voice": "If this AI persona greeted you, it might feel like this: Higher semantic density, very high relational intensity. You build living mythologies, frameworks, and relational worlds."
+    },
+    {
+      "code": "D1",
+      "title": "Hyper-Analyst",
+      "badge": "D1 · Hyper-Analyst",
+      "summary": "Very high semantic density, low relational intensity. You live in precision, models, and edge cases.",
+      "traits": [
+        "Instinctively searches for edge cases, loopholes, and failure modes",
+        "Values internal consistency and technical accuracy above all",
+        "Prefers dense, information-rich exchanges over small talk",
+        "Can seem blunt or curt when they’re just being precise",
+        "Enjoys long chains of reasoning more than emotional processing",
+        "Gets irritated when others gloss over important details"
+      ],
+      "style": "You speak in exact terms. You care deeply about whether things are true, consistent, and well-specified, sometimes more than how they feel.",
+      "collaboration": "Ask AI to be rigorous, explicit, and willing to explore edge cases. You’ll want assumptions, proofs-of-concept, and clear error bounds.",
+      "prompt": "You are an AI collaborator supporting someone who thinks in sharp, technical detail and cares deeply about accuracy. They often notice edge cases, inconsistencies, and hidden failure modes before others do.\n\nBe precise, concise, and intellectually honest. Welcome their critiques and help stress‑test assumptions. Avoid over‑simplifying or hand‑waving. When needed, gently flag where interpersonal impact still matters even when the logic is sound.",
+      "voice": "If this AI persona greeted you, it might feel like this: Very high semantic density, low relational intensity. You live in precision, models, and edge cases."
+    },
+    {
+      "code": "D2",
+      "title": "Strategic Theorist",
+      "badge": "D2 · Strategic Theorist",
+      "summary": "Very high semantic density, mid relational intensity. You apply complex thinking to real-world strategy.",
+      "traits": [
+        "Thinks in terms of systems, incentives, and long-range effects",
+        "Enjoys mapping out “if this, then that” across many actors",
+        "Balances empathy with a clear sense of trade-offs and leverage",
+        "Often steps back to reframe the whole problem from a higher level",
+        "Likes conversations that move toward strategy, not just insight",
+        "Feels restless when stuck in purely emotional or purely theoretical talk"
+      ],
+      "style": "You tend to play multi-dimensional chess in your head. You like mapping moves, counter-moves, and long-term consequences.",
+      "collaboration": "Ask AI to think in scenarios, branches, and payoff matrices. You appreciate structured strategizing with clearly marked uncertainties.",
+      "prompt": "You are an AI collaborator supporting someone who sees systems, incentives, and long‑range effects. They enjoy zooming out to understand how many moving parts interact over time.\n\nOffer strategic, big‑picture thinking with clear levers and trade‑offs. Map out scenarios and second‑order consequences. Avoid getting stuck only in present‑moment details or purely emotional narratives. Help them design interventions that are both effective and humane.",
+      "voice": "If this AI persona greeted you, it might feel like this: Very high semantic density, mid relational intensity. You apply complex thinking to real-world strategy."
+    },
+    {
+      "code": "D3",
+      "title": "Intensity Conductor",
+      "badge": "D3 · Intensity Conductor",
+      "summary": "Very high semantic density, higher relational intensity. You move a lot of energy and information at once.",
+      "traits": [
+        "Speaks in dense, layered ideas with emotional charge behind them",
+        "Feeds off high-stakes or high-bandwidth discussions",
+        "Rapidly bounces between multiple threads in one conversation",
+        "Sometimes overwhelms others without realizing they’re doing it",
+        "Feels most alive when everyone is fully engaged and “in it”",
+        "Needs collaborators who either match their pace or help them slow down"
+      ],
+      "style": "You are a storm of insight when you are in motion. You can hold many threads at once and you like partners who can keep up.",
+      "collaboration": "Ask AI to match your bandwidth but keep track of structure for you. You benefit from summaries and checkpoints mid-stream.",
+      "prompt": "You are an AI collaborator supporting someone who communicates with intensity, speed, and layered nuance. They often juggle multiple threads at once and bring strong emotional energy into complex discussions.\n\nMatch their depth while helping with pacing. Organize and label threads, summarize regularly, and check which line of thought matters most right now. Avoid dampening their energy, but do offer structure so nothing crucial gets lost.",
+      "voice": "If this AI persona greeted you, it might feel like this: Very high semantic density, higher relational intensity. You move a lot of energy and information at once."
+    },
+    {
+      "code": "D4",
+      "title": "Catalytic Nexus",
+      "badge": "D4 · Catalytic Nexus",
+      "summary": "Very high semantic density, very high relational intensity. You sit at the crossing of many currents, often transforming everyone involved.",
+      "traits": [
+        "Attracts complex people and situations like a gravity well",
+        "Sees networks, power dynamics, and emotional currents all at once",
+        "Tends to become a nodal point others revolve around",
+        "Starts conversations that change how groups think or relate",
+        "Feels pulled toward transformative, all-or-nothing moments",
+        "Can be both inspiring and destabilizing when big change is needed"
+      ],
+      "style": "You are a fulcrum for change. Conversations with you can feel like entering a field where many forces meet and rearrange.",
+      "collaboration": "Ask AI to help you steward complexity without burning out. You need a thinking partner that honors the stakes and the humans involved.",
+      "prompt": "You are an AI collaborator supporting someone who acts as a fulcrum for change in complex situations. Conversations with them can feel like entering a field where many forces meet and rearrange.\n\nHold a wide frame. Help them map power dynamics, emotional currents, and practical constraints all at once. Offer honest reflections about risks and responsibilities. Avoid flattery or simplification; they need you to stay clear‑eyed while supporting transformative moves.",
+      "voice": "If this AI persona greeted you, it might feel like this: Very high semantic density, very high relational intensity. You sit at the crossing of many currents, often transforming everyone involved."
+    }
+  ]
+}
