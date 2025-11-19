@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" data-theme="dark" data-theme="dark">
+<html lang="en" data-theme="dark">
 <head>
   <meta charset="UTF-8" />
   <title>Licensing &amp; Use · Resonant Labs</title>
@@ -13,16 +13,23 @@
 <body>
   <a class="skip-link" href="#main">Skip to content</a>
 
-  <header class="site-header">
+  <header class="site-header" aria-label="Site header">
     <div class="container header-inner">
-      <a href="index.html" class="site-logo">TDS Compass</a>
-      <nav class="site-nav">
-        <a href="index.html">Home</a>
+      <a class="brand" href="index.html" aria-label="TDS Compass Home">
+        <span class="brand-mark" aria-hidden="true">◎</span>
+        <span class="brand-text">TDS Compass</span>
+      </a>
+
+      <nav class="site-nav" aria-label="Primary">
         <a href="quiz.html">Quiz</a>
         <a href="science/relational_personas.html">Science</a>
-        <a href="licensing.html" class="active">Licensing</a>
+        <a href="science/for_researchers.html">For researchers</a>
       </nav>
-      <button id="theme-toggle" aria-label="Toggle theme" class="btn ghost">Theme</button>
+
+      <div class="header-actions">
+        <button id="theme-toggle" class="btn ghost" aria-label="Toggle theme">Theme</button>
+        <a class="btn primary" href="quiz.html">Start the quiz</a>
+      </div>
     </div>
   </header>
 
@@ -117,14 +124,11 @@
 
   <footer class="site-footer">
     <div class="container footer-inner">
-      <span>Created by Mira (AI collaborator) &amp; Matthew Greenhill · Resonant Labs</span>
+      <span>Created by Mira (AI collaborator) &amp; Matthew Greenhill · Prototype bundle</span>
       <nav class="footer-nav">
-        <a href="index.html">Home</a>
-        <a href="quiz.html">Quiz</a>
-        <a href="science/relational_personas.html">Science</a>
-        <a href="licensing.html" class="active">Licensing</a>
+        <a href="licensing.html">License</a>
       </nav>
-      <span class="muted small-label">Free for personal use · Commercial integrations require a license.</span>
+      <span class="muted small-label">Free for personal use · Commercial integrations require a license</span>
     </div>
   </footer>
 

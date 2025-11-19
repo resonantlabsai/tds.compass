@@ -47,8 +47,12 @@
 
       const scale = document.createElement("div"); scale.className = "quiz-scale";
       const labelsRow = document.createElement("div"); labelsRow.className = "quiz-scale-labels";
-      const left = document.createElement("span"); left.className = "quiz-scale-label muted"; left.textContent = "Disagree";
-      const right = document.createElement("span"); right.className = "quiz-scale-label muted"; right.textContent = "Agree";
+      const left = document.createElement("span"); left.className = "quiz-scale-label muted"; 
+      left.textContent = "← Disagree";
+      left.style.fontWeight = "600";
+      const right = document.createElement("span"); right.className = "quiz-scale-label muted"; 
+      right.textContent = "Agree →";
+      right.style.fontWeight = "600";
       labelsRow.appendChild(left); labelsRow.appendChild(right);
       const opts = document.createElement("div"); opts.className = "quiz-options";
 
