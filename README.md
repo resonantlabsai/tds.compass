@@ -3,8 +3,6 @@
 TDS Compass is a static web tool built by Resonant Labs for mapping a person's communication style
 and generating AI-alignment prompts based on that style.
 
-**Live site (example):** https://resonantlabsai.github.io/tds-compass/
-
 ## What it does
 
 - Lets users take a short quiz to map their communication style
