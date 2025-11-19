@@ -46,8 +46,10 @@
       title.className = "quiz-question-text"; title.id = qTextId; title.textContent = q.text;
 
       const scale = document.createElement("div"); scale.className = "quiz-scale";
-      const left = document.createElement("span"); left.className = "muted"; left.textContent = "Disagree";
-      const right = document.createElement("span"); right.className = "muted"; right.textContent = "Agree";
+      const labelsRow = document.createElement("div"); labelsRow.className = "quiz-scale-labels";
+      const left = document.createElement("span"); left.className = "quiz-scale-label muted"; left.textContent = "Disagree";
+      const right = document.createElement("span"); right.className = "quiz-scale-label muted"; right.textContent = "Agree";
+      labelsRow.appendChild(left); labelsRow.appendChild(right);
       const opts = document.createElement("div"); opts.className = "quiz-options";
 
       for (const opt of SCALE) {
@@ -59,7 +61,7 @@
         lab.appendChild(input); opts.appendChild(lab);
       }
 
-      scale.appendChild(left); scale.appendChild(opts); scale.appendChild(right);
+      scale.appendChild(labelsRow); scale.appendChild(opts);
       wrap.appendChild(title); wrap.appendChild(scale); host.appendChild(wrap);
     }
   }

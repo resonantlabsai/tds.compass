@@ -11,7 +11,10 @@
 
 function applyTheme(theme) {
   try { localStorage.setItem(THEME_KEY, theme); } catch (e) {}
-  document.documentElement.setAttribute("data-theme", theme);
+  const root = document.documentElement;
+  root.setAttribute("data-theme", theme);
+  root.classList.toggle("theme-light", theme === "light");
+  root.classList.toggle("theme-dark", theme === "dark");
 }
 
 function initTheme() {

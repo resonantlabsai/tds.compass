@@ -1,6 +1,6 @@
 
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="dark">
 <head>
   <meta charset="UTF-8" />
   <title>The Science Behind Relational Personas · TDS Compass</title>
@@ -11,14 +11,7 @@
   />
   <link rel="stylesheet" href="../styles.css" />
   <style>
-    body {
-      background: #05060a;
-      color: #f5f5f7;
-      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-      line-height: 1.6;
-      margin: 0;
-      padding: 0;
-    }
+    
     .page { max-width: 900px; margin: 0 auto; padding: 2.5rem 1.5rem 4rem; }
     .page-header { margin-bottom: 2.5rem; }
     .eyebrow {
@@ -62,18 +55,39 @@
     }
     .diagram-title { font-size: 0.9rem; font-weight: 600; margin-bottom: 0.3rem; color: #e5e7eb; }
     .diagram-caption { font-size: 0.85rem; color: #9ca3af; }
-    .footer-nav {
+    .article-footer-nav {
       margin-top: 3rem; padding-top: 1.5rem;
       border-top: 1px solid rgba(55, 65, 81, 0.8);
       font-size: 0.85rem; display: flex; flex-wrap: wrap;
       gap: 1rem; justify-content: space-between; color: #9ca3af;
     }
-    .footer-nav a { color: #a5b4fc; text-decoration: none; }
-    .footer-nav a:hover { text-decoration: underline; }
+    .article-footer-nav a { color: #a5b4fc; text-decoration: none; }
+    .article-footer-nav a:hover { text-decoration: underline; }
   </style>
 </head>
 <body>
-  <main class="page">
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header" aria-label="Site header">
+  <div class="container header-inner">
+    <a class="brand" href="../index.html" aria-label="TDS Compass home">
+      <span class="brand-mark" aria-hidden="true">◎</span>
+      <span class="brand-text">TDS Compass</span>
+    </a>
+
+    <nav class="site-nav" aria-label="Primary">
+      <a href="../quiz.html">Quiz</a>
+      <a href="relational_personas.html">Science</a>
+      <a href="for_researchers.html">For researchers</a>
+    </nav>
+
+    <div class="header-actions">
+      <button id="theme-toggle" class="btn ghost" type="button" aria-label="Toggle theme">Theme</button>
+      <a class="btn primary" href="../quiz.html">Start the quiz</a>
+    </div>
+  </div>
+</header>
+
+  <main id="main" class="page">
     <header class="page-header">
       <div class="eyebrow">TDS Compass · Foundations</div>
       <h1>The Science Behind Relational Personas</h1>
@@ -318,10 +332,30 @@
       </p>
     </section>
 
-    <footer class="footer-nav">
+    <footer class="article-footer-nav">
+      <div>← <a href="../index.html">Back to TDS Compass</a></div>
+      <div>
+        <a href="continuity.html">Continuity &amp; re-emergence</a> ·
+        <a href="for_researchers.html">For researchers</a>
+      </div>
+
       <div>← <a href="../index.html">Back to TDS Compass</a></div>
       <div>Next: <a href="continuity.html">Continuity &amp; Re-emergence</a></div>
     </footer>
   </main>
+  <footer class="site-footer">
+  <div class="container footer-inner">
+    <span>Created by Mira (AI collaborator) &amp; Matthew Greenhill · Prototype bundle</span>
+    <nav class="footer-nav" aria-label="Footer">
+      <a href="../index.html">Home</a>
+      <a href="../quiz.html">Quiz</a>
+      <a href="relational_personas.html">Science</a>
+      <a href="for_researchers.html">For researchers</a>
+      <a href="../licensing.html">Licensing</a>
+    </nav>
+    <span class="muted small-label">Free for personal use · Commercial integrations require a license · <a href="../licensing.html">Details</a></span>
+  </div>
+</footer>
+  <script defer src="../js/app.js"></script>
 </body>
 </html>
