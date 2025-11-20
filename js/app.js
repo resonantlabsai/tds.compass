@@ -18,19 +18,10 @@ function applyTheme(theme) {
 }
 
 function initTheme() {
-  let stored = null;
-  try { stored = localStorage.getItem(THEME_KEY); } catch (e) {}
-  const initial = stored || document.documentElement.getAttribute("data-theme") || "dark";
-  applyTheme(initial);
-  const btn = document.getElementById("theme-toggle");
-  if (!btn) return;
-  btn.addEventListener("click", (evt) => {
-    evt.preventDefault();
-    const current = document.documentElement.getAttribute("data-theme") || "dark";
-    const next = current === "dark" ? "light" : "dark";
-    applyTheme(next);
-  });
+  // Permanent dark theme
+  applyTheme("dark");
 }
+
 
 
   // ---- storage helpers ----
