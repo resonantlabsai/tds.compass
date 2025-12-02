@@ -22,3 +22,6 @@ TDS Compass is released under the Resonant Labs Open User License (RLOUL 1.0).
 See the `LICENSE` file for full details.
 
 To inquire about commercial licensing, email: **resonantlabs.ai@gmail.com**.
+
+See also the toolbox for ai introspection... a set of safe tools to help ai code more efficiently
+https://github.com/resonantlabsai/ai_introspect
