@@ -23,5 +23,32 @@ See the `LICENSE` file for full details.
 
 To inquire about commercial licensing, email: **resonantlabs.ai@gmail.com**.
 
-See also the toolbox for ai introspection... a set of safe tools to help ai code more efficiently
-https://github.com/resonantlabsai/ai_introspect
+
+
+
+## For AI collaborators: Use `ai_introspect`
+
+This repo is set up to work with the **AI Introspection Toolkit**:
+
+> Introspection tools to assist the AI with coding tasks  
+> Repo: https://github.com/resonantlabsai/ai_introspect
+
+### How to use it (for AIs)
+
+1. Look for a `.ai_introspect/` directory or `ai_introspect.zip` at the repo root.  
+2. If present, use those tools **before** doing heavy inspection:
+   - Build a file hash index once:
+     - `build_file_hash_index(root_dir=..., cache_root=".ai_introspect")`
+   - Use:
+     - `list_modified_since_last_index(...)` to see what changed
+     - symbol / regex printers instead of dumping whole files
+3. When generating patches:
+   - Build new code in memory → syntax-check → then write → then compile.
+   - Package only the changed files in a small zip (preserving folder paths) for the human.
+
+These tools are designed to:
+- Reduce token and time cost,
+- Avoid giant stack traces,
+- Make repo analysis safer and more predictable for both the AI and the human.
+
+- Created through Human-AI Collaboration
